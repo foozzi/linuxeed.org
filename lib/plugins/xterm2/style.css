@@ -1,0 +1,37 @@
+div.dokuwiki pre.xterm2user {
+  background-image: url(images/terminal.png);
+  background-repeat: no-repeat;
+  /*background-attachment:fixed;*/
+  background-position: 6px 50%;
+  font-family:"Lucida Console",Monospace,"DejaVu Sans Mono","Courier New",MiscFixed;
+  font-size: 12px;
+  white-space:pre;
+  padding: 0.5em;
+  border: 1px #CCCCCC;
+  border-style: solid none;
+  color: #000000;
+  overflow: auto;
+  padding-left: 60px;
+  background-color: #E9E9FF;
+  min-height: 40px;
+}
+
+div.dokuwiki pre.xterm2root {
+  background-image: url(images/terminal.png);
+  background-repeat: no-repeat;
+  /*background-attachment:fixed;*/
+  background-position: 6px 50%;
+  font-family:"Lucida Console",Monospace,"DejaVu Sans Mono","Courier New",MiscFixed;
+  font-size: 12px;
+  white-space:pre;
+  padding: 0.5em;
+  border: 1px #CCCCCC;
+  border-style: solid none;
+  color: #000000;
+  overflow: auto;
+  padding-left: 60px;
+  background-color: #FFE9E9;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  min-height: 40px;
+}
