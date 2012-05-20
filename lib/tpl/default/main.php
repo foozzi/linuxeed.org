@@ -62,6 +62,7 @@ if (!defined('DOKU_INC')) die();
       </div>
 
       <div class="bar-right" id="bar__topright">
+      Фид изменений: <a href="/feed.php"><img src="<?php echo DOKU_TPL; ?>images/button-rss.png"/></a>
               <?php
         if(!empty($_POST['go'])) {
 	     $name = $_POST['article'];
