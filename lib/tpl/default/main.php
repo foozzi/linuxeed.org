@@ -74,7 +74,7 @@ if (!defined('DOKU_INC')) die();
             </a>|
             <!-- End Social buttons -->
       Фид изменений: <a href="/feed.php"><img src="<?php echo DOKU_TPL; ?>images/button-rss.png"/></a>
-              <?php
+              <?php /*
         if(!empty($_POST['go'])) {
 	     $name = $_POST['article'];
 	     header('Location: http://linuxeed.org/sandbox/' . $name);
@@ -84,7 +84,7 @@ if (!defined('DOKU_INC')) die();
             <form action="" method="post">
             Введите название статьи: <input type="text" name="article" value="" /><input type="submit" name="go" value="Начать написание" />
             </form>';
-		  }
+		  }*/
         ?>
         <?php tpl_button('recent')?>
         <?php tpl_searchform()?>&nbsp;
