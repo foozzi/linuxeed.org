@@ -1,1 +1,3 @@
 Репозиторий модифицированой версии DokuWiki для www.linuxeed.org
+Из репозитория была удалена директория data и файл conf/users.auth.php
+
