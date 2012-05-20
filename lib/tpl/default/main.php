@@ -62,6 +62,17 @@ if (!defined('DOKU_INC')) die();
       </div>
 
       <div class="bar-right" id="bar__topright">
+<!-- Social button -->
+              |<a target="_blank" style="text-decoration: none"
+               href="https://twitter.com/intent/tweet?text=%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7+%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B9+%D1%81%D1%80%D0%B5%D0%B4%D1%8B+EDE+2.0&amp;url=http%3A%2F%2Fwww.linux.org.ru%2Fnews%2Fopensource%2F7771672&amp;hashtags=%D0%BB%D0%BE%D1%80">
+              <img border="0" src="<?php echo DOKU_TPL; ?>/images/twitter.png" width=16 height=16 alt="Share on Twitter" title="Share on Twitter">
+            </a>
+        
+        <a target="_blank" style="text-decoration: none"
+               href="https://plus.google.com/share?url=http%3A%2F%2Fwww.linux.org.ru%2Fnews%2Fopensource%2F7771672">
+              <img border="0" src="<?php echo DOKU_TPL; ?>/images/google-plus-icon.png" width=16 height=16 alt="Share on Google Plus" title="Share on Google Plus">
+            </a>|
+            <!-- End Social buttons -->
       Фид изменений: <a href="/feed.php"><img src="<?php echo DOKU_TPL; ?>images/button-rss.png"/></a>
               <?php
         if(!empty($_POST['go'])) {
