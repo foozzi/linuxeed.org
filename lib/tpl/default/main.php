@@ -47,6 +47,7 @@ if (!defined('DOKU_INC')) die();
       </div>
       <div class="logo">
         <?php //tpl_link(wl(),$conf['title'],'name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[H]"')?>
+        <a href="http://linux.org.ru/" ><img src="http://www.linux.org.ru/img/linux-banner5.gif" alt="linux.org.ru" ></a>
       </div>
 
 
