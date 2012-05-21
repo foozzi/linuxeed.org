@@ -73,7 +73,7 @@ if (!defined('DOKU_INC')) die();
               <img border="0" src="<?php echo DOKU_TPL; ?>/images/google-plus-icon.png" width=16 height=16 alt="Share on Google Plus" title="Share on Google Plus">
             </a>|
             <!-- End Social buttons -->
-      Фид изменений: <a href="/feed.php"><img src="<?php echo DOKU_TPL; ?>images/button-rss.png"/></a>
+      <a href="/feed.php"><img src="<?php echo DOKU_TPL; ?>images/button-rss.png"/></a> |
               <?php /*
         if(!empty($_POST['go'])) {
 	     $name = $_POST['article'];
